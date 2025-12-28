@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OpenLayers Map Project</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@latest/ol.css">
+    <link rel="stylesheet" href="part2.css">
+</head>
+<body>
+<!-- ===== Map Container ===== -->
+<div id="map" class="map"></div>
+<!-- ===== Weather Information Section ===== -->
+<div id="weatherBox" class="weather-box hidden">
+    <h3>Weather Info</h3>
+    <div id="weatherContent">
+        Click on map to get weather data
+    </div>
+</div>
+<!-- OpenLayers (COMMON) -->
+<script src="https://cdn.jsdelivr.net/npm/ol@latest/dist/ol.js"></script>
+<!-- Weather -->
+<script src="config.js"></script>
+<script src="part2.js"></script>
+</body>
+</html>
