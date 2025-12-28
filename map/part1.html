@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OpenLayers Map Project</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@latest/ol.css">
+    <link rel="stylesheet" href="part1.css">
+</head>
+<body>
+<!-- ===== Geocoding Search Section ===== -->
+<div class="search-container">
+    <input 
+        type="text" 
+        id="searchInput" 
+        placeholder="Enter location name..."
+    />
+    <button id="searchBtn">Search</button>
+</div>
+<!-- ===== Map Container ===== -->
+<div id="map" class="map"></div>
+<!-- OpenLayers (COMMON) -->
+<script src="https://cdn.jsdelivr.net/npm/ol@latest/dist/ol.js"></script>
+<!-- Map + Geocoding -->
+<script src="config.js"></script>
+<script src="part1.js"></script>
+
